@@ -1,7 +1,7 @@
 # Site settings
 title: SIDL
 description: A Real-World Dataset for Restoring Smartphone Images with Dirty Lenses
-baseurl: ""  # organization.github.io를 사용할 경우
+baseurl: "/SIDL"  # organization.github.io를 사용할 경우
 url: "https://sidl-benchmark.github.io"  # 만든 organization 이름으로 수정
 
 # Build settings
