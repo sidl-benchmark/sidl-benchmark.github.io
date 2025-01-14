@@ -8,10 +8,10 @@ authors:
     - Heewon Kim
 affiliations:
     - Soongsil University
-paper: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
-video: https://www.youtube.com/results?search_query=turing+machine
-code: https://github.com/topics/turing-machines
-data: https://huggingface.co/docs/datasets
+paper: Comming Soon
+video: Comming Soon
+code: Comming Soon
+data: Comming Soon
 ---
 
 <!-- Using HTML to center the abstract -->
@@ -19,19 +19,26 @@ data: https://huggingface.co/docs/datasets
     <div class="column is-four-fifths">
         <h2>Abstract</h2>
         <div class="content has-text-justified">
-The "computable" numbers may be described briefly as the real
-numbers whose expressions as a decimal are calculable by finite means.
-Although the subject of this paper is ostensibly the computable numbers.
-it is almost equally easy to define and investigate computable functions
-of an integral variable or a real or computable variable, computable
-predicates, and so forth. The fundamental problems involved are,
-however, the same in each case, and I have chosen the computable numbers
-for explicit treatment as involving the least cumbrous technique. I hope
-shortly to give an account of the relations of the computable numbers,
-functions, and so forth to one another. This will include a development
-of the theory of functions of a real variable expressed in terms of computable
-numbers. According to my definition, a number is computable
-if its decimal can be written down by a machine...
+Smartphone cameras are ubiquitous in daily life, yet their
+performance can be severely impacted by dirty lenses, lead-
+ing to degraded image quality. This issue is often over-
+looked in image restoration research, which assumes ideal
+or controlled lens conditions. To address this gap, we intro-
+duced SIDL (Smartphone Images with Dirty Lenses), a novel
+dataset designed to restore images captured through contam-
+inated smartphone lenses. SIDL contains diverse real-world
+images taken under various lighting conditions and environ-
+ments. These images feature a wide range of lens contami-
+nants, including water drops, fingerprints, and dust. Each con-
+taminated image is paired with a clean reference image, en-
+abling supervised learning approaches for restoration tasks.
+To evaluate the challenge posed by SIDL, various state-of-
+the-art restoration models were trained and compared on this
+dataset. Their performances achieved some level of restora-
+tion but did not adequately address the diverse and realistic
+nature of the lens contaminants in SIDL. This challenge high-
+lights the need for more robust and adaptable image restora-
+tion techniques for restoring images with dirty lenses.
         </div>
     </div>
 </div>
