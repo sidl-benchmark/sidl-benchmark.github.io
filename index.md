@@ -1,7 +1,9 @@
 ---
 layout: project_page
-permalink: <a target="_blank" href="https://iccv2023.thecvf.com/">ICCV 2023</a>
+permalink: /
 title: "SIDL: A Real-World Dataset for Restoring Smartphone Images with Dirty Lenses"
+venue: AAAI 2025
+venue_url: https://aaai.org/conference/aaai/aaai-25/
 authors:
     - Sooyoung Choi*, 
     - Sungyong Park*, 
