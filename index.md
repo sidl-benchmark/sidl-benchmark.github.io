@@ -2,7 +2,7 @@
 layout: project_page
 permalink: /
 
-title: SIDL: A Real-World Dataset for Restoring Smartphone Images with Dirty Lenses
+title: "SIDL: A Real-World Dataset for Restoring Smartphone Images with Dirty Lenses"
 authors:
     Sooyoung Choi*,
     Sungyong Park*,
