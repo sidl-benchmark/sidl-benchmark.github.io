@@ -2,9 +2,9 @@
 layout: project_page
 permalink: /
 
-title: On Computable Numbers, with an Application to the Entscheidungsproblem
+title: SIDL: A Real-World Dataset for Restoring Smartphone Images with Dirty Lenses
 authors:
-    A. M. Turing
+    Sooyoung Choi, Sungyong Park, Heewon Kim
 affiliations:
     King's College, Cambridge
 paper: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
