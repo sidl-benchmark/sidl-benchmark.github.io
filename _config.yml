@@ -1,30 +1,40 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
+title: SIDL
+description: A Real-World Dataset for Restoring Smartphone Images with Dirty Lenses
+baseurl: ""  # organization.github.io를 사용할 경우
+url: "https://sidl-dataset.github.io"  # 만든 organization 이름으로 수정
 
 # Build settings
 markdown: kramdown
+permalink: /:title/
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+# Author Settings
+author:
+  name: Sooyoung Choi, Sungyong Park, Heewon Kim
+  affiliation: Soongsil University
+  email: hwkim@ssu.ac.kr
+
+# Project Settings
+project:
+  paper_url: https://arxiv.org/abs/your-paper
+  code_url: https://github.com/sidl-dataset/SIDL
+  dataset_url: your-dataset-url
+
+# Social Links
+social:
+  github: https://github.com/sidl-dataset
+
+# Analytics
+google_analytics: # your google analytics id
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - README.md
+  - LICENSE
