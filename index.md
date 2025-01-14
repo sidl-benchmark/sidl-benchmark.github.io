@@ -1,6 +1,6 @@
 ---
 layout: project_page
-permalink: /
+permalink: <a target="_blank" href="https://iccv2023.thecvf.com/">ICCV 2023</a>
 title: "SIDL: A Real-World Dataset for Restoring Smartphone Images with Dirty Lenses"
 authors:
     - Sooyoung Choi*, 
