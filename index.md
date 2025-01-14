@@ -2,9 +2,9 @@
 layout: project_page
 permalink: /
 
-title: SIDL
+title: On Computable Numbers, with an Application to the Entscheidungsproblem
 authors:
-    Sooyoung Choi
+    A. M. Turing
 affiliations:
     King's College, Cambridge
 paper: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
