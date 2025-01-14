@@ -7,7 +7,7 @@ presentation: "AAAI 2025"
 authors:
     Sooyoung Choi*,
     Sungyong Park*,
-    Heewon Kim,
+    Heewon Kim
 affiliations:
     Soongsil University
 paper: Coming Soon
