@@ -4,7 +4,7 @@ permalink: /
 
 title: SIDL: A Real-World Dataset for Restoring Smartphone Images with Dirty Lenses
 authors:
-    Sooyoung Choi, Sungyong Park, Heewon Kim
+    Sooyoung Choi
 affiliations:
     King's College, Cambridge
 paper: https://www.cs.virginia.edu/~robins/Turing_Paper_1936.pdf
