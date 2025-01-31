@@ -44,5 +44,13 @@ Coming soon.
 Coming soon
 
 ## Citation
-Coming soon
+```
+@inproceedings{
+anonymous2024sidl,
+title={{SIDL}: A Real-World Dataset for Restoring Smartphone Images with Dirty Lenses},
+author={Anonymous},
+booktitle={The 39th Annual AAAI Conference on Artificial Intelligence},
+year={2024},
+url={https://openreview.net/forum?id=oHKzYzEfIl}
+}
 ```
