@@ -11,7 +11,7 @@ affiliations:
   - Soongsil University
 paper: "https://your-link-to-paper.com"
 video: "https://your-link-to-video.com"
-code: "https://github.com/your-repo"
+code: "https://github.com/sidl-benchmark/sidl-benchmark.github.io"
 data: "https://github.com/your-repo/dataset"
 ---
 
@@ -28,6 +28,11 @@ data: "https://github.com/your-repo/dataset"
 <div class = "comming soon">
   <h3>Comming Soon..</h3>
 </div>
+
+<body>
+  <hr>
+  <img src = "Ex01.jpg" alt = "Example 001">
+</body>
 
 <!-- ## Background
 The field of image restoration has mainly focused on ideal conditions, while real-world issues such as dirty smartphone lenses have been less explored. SIDL addresses this gap by providing a comprehensive set of images captured under real-world conditions with various types of lens contamination.
