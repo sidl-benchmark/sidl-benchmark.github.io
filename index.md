@@ -10,7 +10,7 @@ authors:
 affiliations:
   - Soongsil University
 paper: "https://your-link-to-paper.com"
-video: "https://your-link-to-video.com"
+video: "https://youtu.be/5nSJh-IPWd0"
 code: "https://github.com/sidl-benchmark/sidl-benchmark.github.io"
 data: "https://github.com/your-repo/dataset"
 ---
