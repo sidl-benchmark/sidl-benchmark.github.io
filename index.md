@@ -33,12 +33,11 @@ data: "https://github.com/your-repo/dataset"
 
 
 <!-- Dataset Download Buttons -->
-<div class="Dataset">
+## Download Dataset
   <div class="buttons" style="text-align: center; margin-top: 1em;">
     <a class="button is-primary" href="https://drive.google.com/file/d/1es3rPo5Y9O96EjDVXanUY8NpaRprWH-h/view?usp=sharing" target="_blank">Train</a>
     <a class="button is-primary" href="https://github.com/your-repo/dataset" target="_blank">Validation</a>
   </div>
-</div>
 <!-- ## Background
 The field 
 
