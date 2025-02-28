@@ -34,12 +34,12 @@ data: "https://github.com/your-repo/dataset"
 
 <!-- Dataset Download Buttons -->
 ## Download Dataset
-  <div class="buttons" style="text-align: center; margin-top: 1em;">
-    <a class="button is-primary" href="https://drive.google.com/file/d/1es3rPo5Y9O96EjDVXanUY8NpaRprWH-h/view?usp=sharing" target="_blank">Train</a>
-    <a class="button is-primary" href="https://drive.google.com/file/d/1u5-MDauO3XolXsU6eOARwlXo7SnpLwqA/view?usp=drive_link" target="_blank">Validation</a>
-  </div>
-<!-- ## Background
-The field 
+
+<div class="buttons" style="text-align: center; margin-top: 1em;">
+  <a class="button is-primary" href="https://drive.google.com/file/d/1es3rPo5Y9O96EjDVXanUY8NpaRprWH-h/view?usp=sharing" target="_blank">Train</a>
+  <a class="button is-primary" href="https://drive.google.com/file/d/1u5-MDauO3XolXsU6eOARwlXo7SnpLwqA/view?usp=drive_link" target="_blank">Validation</a>
+</div>
+
 
 
 ## Online Evaluation
