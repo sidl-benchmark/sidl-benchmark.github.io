@@ -36,11 +36,11 @@ data: "https://github.com/your-repo/dataset"
 </div>
 
 Dataset (Patch Version)
-Download the SIDL dataset (patch version) from the following links:
+Download the SIDL dataset from the following links:
 
 <div class="buttons" style="text-align: center; margin-top: 1em;">
   <a class="button is-primary" href="https://drive.google.com/file/d/1es3rPo5Y9O96EjDVXanUY8NpaRprWH-h/view?usp=sharing" target="_blank">Download Train Dataset</a>
-  <a class="button is-primary" href="https://github.com/your-repo/dataset" target="_blank">Download Val Dataset</a>
+  <a class="button is-primary" href="https://github.com/your-repo/dataset" target="_blank">Download Validation Dataset</a>
 </div>
 
 <!-- ## Background
