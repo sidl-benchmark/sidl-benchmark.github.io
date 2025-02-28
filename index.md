@@ -35,6 +35,14 @@ data: "https://github.com/your-repo/dataset"
   <h3>Comming Soon..</h3>
 </div>
 
+Dataset (Patch Version)
+Download the SIDL dataset (patch version) from the following links:
+
+<div class="buttons" style="text-align: center; margin-top: 1em;">
+  <a class="button is-primary" href="https://drive.google.com/file/d/1es3rPo5Y9O96EjDVXanUY8NpaRprWH-h/view?usp=sharing" target="_blank">Download Train Dataset</a>
+  <a class="button is-primary" href="https://github.com/your-repo/dataset" target="_blank">Download Val Dataset</a>
+</div>
+
 <!-- ## Background
 The field of image restoration has mainly focused on ideal conditions, while real-world issues such as dirty smartphone lenses have been less explored. SIDL addresses this gap by providing a comprehensive set of images captured under real-world conditions with various types of lens contamination.
 
@@ -82,7 +90,7 @@ Below, you can see real-time evaluation metrics (e.g., PSNR, SSIM):
   window.addEventListener('load', fetchEvaluationResults);
 </script>
 
-## Dataset
+Dataset
 Download the SIDL dataset from the following link:
 
 <a class="button is-primary" href="https://github.com/your-repo/dataset" target="_blank">Download Dataset</a>
