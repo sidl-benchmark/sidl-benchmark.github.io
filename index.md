@@ -35,7 +35,7 @@ data: "https://github.com/your-repo/dataset"
   <h3>Comming Soon..</h3>
 </div>
 
-Dataset (Patch Version)
+Download SIDL dataset (Patch Version)
 Download the SIDL dataset from the following links:
 
 <div class="buttons" style="text-align: center; margin-top: 1em;">
