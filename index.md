@@ -40,7 +40,7 @@ data: "https://github.com/your-repo/dataset"
   </div>
 </div>
 <!-- ## Background
-The field of image restoration has mainly focused on ideal conditions, while real-world issues such as dirty smartphone lenses have been less explored. SIDL addresses this gap by providing a comprehensive set of images captured under real-world conditions with various types of lens contamination.
+The field 
 
 
 ## Online Evaluation
