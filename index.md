@@ -31,85 +31,21 @@ data: "https://github.com/your-repo/dataset"
   </div>
 </div>
 
-<div class = "comming soon">
-  <h3>Comming Soon..</h3>
-</div>
 
-Download SIDL dataset (Patch Version)
-Download the SIDL dataset from the following links:
-
+<div class = "Dataset">
 <div class="buttons" style="text-align: center; margin-top: 1em;">
   <a class="button is-primary" href="https://drive.google.com/file/d/1es3rPo5Y9O96EjDVXanUY8NpaRprWH-h/view?usp=sharing" target="_blank">Train</a>
   <a class="button is-primary" href="https://github.com/your-repo/dataset" target="_blank">Validation</a>
 </div>
-
+</div>
 <!-- ## Background
 The field of image restoration has mainly focused on ideal conditions, while real-world issues such as dirty smartphone lenses have been less explored. SIDL addresses this gap by providing a comprehensive set of images captured under real-world conditions with various types of lens contamination.
 
-## Objective
-The main goals of SIDL are:
-- To provide a realistic benchmark for evaluating image restoration techniques.
-- To challenge current methods with diverse and uncontrolled lens contaminations.
-- To foster the development of adaptive and robust restoration algorithms.
 
-## Key Ideas
-- **Real-World Data Acquisition:** Images are captured in authentic environments with natural lens contaminants.
-- **Paired Data:** Each dirty image is paired with its clean counterpart for supervised learning.
-- **Evaluation Platform:** An online system is provided for real-time evaluation of submitted restoration results.
+## Online Evaluation
+Coming soon
 
-## Evaluate
-Evaluation on the SIDL dataset includes both offline benchmarks and an online evaluation platform.  
-Below, you can see real-time evaluation metrics (e.g., PSNR, SSIM):
 
-<div id="evaluation-results">
-  Loading evaluation results...
-</div>
 
-<script>
-  // Example: Replace with your actual API endpoint
-  async function fetchEvaluationResults() {
-    try {
-      const response = await fetch('https://api.example.com/evaluation-results');
-      const data = await response.json();
-      document.getElementById('evaluation-results').innerHTML = formatResults(data);
-    } catch (error) {
-      console.error('Error fetching evaluation results:', error);
-      document.getElementById('evaluation-results').innerHTML = "Error loading evaluation results.";
-    }
-  }
-  
-  function formatResults(data) {
-    let html = '<ul>';
-    data.results.forEach(result => {
-      html += `<li>${result.metric}: ${result.value}</li>`;
-    });
-    html += '</ul>';
-    return html;
-  }
-  
-  window.addEventListener('load', fetchEvaluationResults);
-</script>
-
-Dataset
-Download the SIDL dataset from the following link:
-
-<a class="button is-primary" href="https://github.com/your-repo/dataset" target="_blank">Download Dataset</a>
-
-## Image Acquisition Process
-The images in the SIDL dataset were obtained using the following process:
-1. **Capture Setup:** Images were captured under diverse lighting conditions to simulate realistic environments.
-2. **Contaminant Application:** Natural contaminants such as water droplets, fingerprints, and dust were present during capture.
-3. **Post-Processing:** Each image was paired with a clean reference after quality control.
-
-![Image Acquisition](static/image/Turing_machine.png)
-
-## Experiments
-Below is a summary of experiments conducted on the SIDL dataset:
-
-| Model         | PSNR  | SSIM  | Runtime (s) |
-|---------------|-------|-------|-------------|
-| Model A       | 28.5  | 0.85  | 0.5         |
-| Model B       | 30.2  | 0.87  | 0.7         |
-| Model C       | 27.8  | 0.83  | 0.6         |
 
 ## Citation -->
