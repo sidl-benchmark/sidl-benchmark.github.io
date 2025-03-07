@@ -41,7 +41,7 @@ This
     <a class="button is-primary" href="https://drive.google.com/file/d/1-SFyyjH0G3C68OfDjZ_O7M4mOqkcJdEf/view?usp=sharing" target="_blank">Evaluation</a>
 </div>
 
-## SIDL Full resolution (4032X3028)
+## SIDL Full resolution (4032X3024)
 We also provide
 <div class="buttons" style="text-align: center; margin-top: 1em;">
   <a class="button is-primary" href="https://drive.google.com/file/d/1es3rPo5Y9O96EjDVXanUY8NpaRprWH-h/view?usp=sharing" target="_blank">Train</a>
