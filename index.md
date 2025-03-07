@@ -33,7 +33,7 @@ data: "https://github.com/your-repo/dataset"
 
 
 <!-- Dataset Download Buttons -->
-## SIDL Download (Patch)
+### SIDL Patch (512x512)
 This 
 <div class="buttons" style="text-align: center; margin-top: 1em;">
   <a class="button is-primary" href="https://drive.google.com/file/d/1es3rPo5Y9O96EjDVXanUY8NpaRprWH-h/view?usp=sharing" target="_blank">Train</a>
@@ -41,12 +41,19 @@ This
     <a class="button is-primary" href="https://drive.google.com/file/d/1-SFyyjH0G3C68OfDjZ_O7M4mOqkcJdEf/view?usp=sharing" target="_blank">Evaluation</a>
 </div>
 
-## SIDL Download (Full Resolution)
+## SIDL Full resolution (4032X3028)
 We also provide
 <div class="buttons" style="text-align: center; margin-top: 1em;">
   <a class="button is-primary" href="https://drive.google.com/file/d/1es3rPo5Y9O96EjDVXanUY8NpaRprWH-h/view?usp=sharing" target="_blank">Train</a>
   (20GB)
   <a class="button is-primary" href="https://drive.google.com/file/d/1u5-MDauO3XolXsU6eOARwlXo7SnpLwqA/view?usp=sharing" target="_blank">Validation</a>
+
+## SIDL raw
+We also provide
+<div class="buttons" style="text-align: center; margin-top: 1em;">
+  <a class="button is-primary" href="https://drive.google.com/file/d/1es3rPo5Y9O96EjDVXanUY8NpaRprWH-h/view?usp=sharing" target="_blank">Train</a>
+  (20GB)
+  <a class="button is-primary" href="https://drive.google.com/file/d/1u5-MDauO3XolXsU6eOARwlXo7SnpLwqA/view?usp=sharing" target="_blank">Metadata</a>
 
 ## Online Evaluation
 Coming soon
