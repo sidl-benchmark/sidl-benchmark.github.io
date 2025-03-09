@@ -41,22 +41,25 @@ For efficient training and learning, we provide patchified images.
 <div class="buttons" style="text-align: center; margin-top: 1em;">
   <a class="button is-primary" href="https://drive.google.com/file/d/1es3rPo5Y9O96EjDVXanUY8NpaRprWH-h/view?usp=sharing" target="_blank">Train</a>
   <a class="button is-primary" href="https://drive.google.com/file/d/1u5-MDauO3XolXsU6eOARwlXo7SnpLwqA/view?usp=sharing" target="_blank">Validation</a>
-    <a class="button is-primary" href="https://drive.google.com/file/d/1-SFyyjH0G3C68OfDjZ_O7M4mOqkcJdEf/view?usp=sharing" target="_blank">Evaluation</a>
 </div>
 
 ### Full-resolution images (4032x3024)
 <div class="buttons" style="text-align: center; margin-top: 1em;">
   <a class="button is-primary" href="https://drive.google.com/file/d/1es3rPo5Y9O96EjDVXanUY8NpaRprWH-h/view?usp=sharing" target="_blank">Train</a>
   <a class="button is-primary" href="https://drive.google.com/file/d/1u5-MDauO3XolXsU6eOARwlXo7SnpLwqA/view?usp=sharing" target="_blank">Validation</a>
+</div>
 
 ### RAW files
 We also provide RAW image files (DNG) along with metadata.
 <div class="buttons" style="text-align: center; margin-top: 1em;">
   <a class="button is-primary" href="https://drive.google.com/file/d/1es3rPo5Y9O96EjDVXanUY8NpaRprWH-h/view?usp=sharing" target="_blank">DNG images</a>
   <a class="button is-primary" href="https://drive.google.com/file/d/1u5-MDauO3XolXsU6eOARwlXo7SnpLwqA/view?usp=sharing" target="_blank">Metadata</a>
-
+</div>
 
 ### Online Evaluation
+<div class="buttons" style="text-align: center; margin-top: 1em;">
+  <a class="button is-primary" href="https://drive.google.com/file/d/1-SFyyjH0G3C68OfDjZ_O7M4mOqkcJdEf/view?usp=sharing" target="_blank">Evaluation</a>
+</div>
 Coming soon
 
 
