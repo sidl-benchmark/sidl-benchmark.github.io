@@ -35,10 +35,9 @@ data: "https://github.com/your-repo/dataset"
 <!-- Dataset Download Buttons -->
 
 ## SIDL Dataset 
-We ~ 80% training and validation. Remains online evaluation.
+We provide 80% of the scenes for training and learning. The remaining scenes are used for online evaluation.
 ### Patchify images (512x512)
-For training/learning ~~~. 
-test set using online evaluation purposes we provide.
+For efficient training and learning, we provide patchified images. 
 <div class="buttons" style="text-align: center; margin-top: 1em;">
   <a class="button is-primary" href="https://drive.google.com/file/d/1es3rPo5Y9O96EjDVXanUY8NpaRprWH-h/view?usp=sharing" target="_blank">Train</a>
   <a class="button is-primary" href="https://drive.google.com/file/d/1u5-MDauO3XolXsU6eOARwlXo7SnpLwqA/view?usp=sharing" target="_blank">Validation</a>
