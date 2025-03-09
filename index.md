@@ -9,7 +9,7 @@ authors:
   - Heewon Kim
 affiliations:
   - Soongsil University
-paper: "https://your-link-to-paper.com"
+paper: "https://drive.google.com/file/d/1nmVB_QJuFUEyZEiNWJoCSMwqQAdmz9QQ/view?usp=sharing"
 video: "https://youtu.be/5nSJh-IPWd0"
 code: "https://github.com/sidl-benchmark/sidl-benchmark.github.io"
 data: "https://github.com/your-repo/dataset"
