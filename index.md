@@ -59,7 +59,7 @@ We also provide RAW image files (DNG) along with metadata.
 
 ### Online Evaluation  
 <div class="buttons" style="text-align: center; margin-top: 1em;">
-  <a class="button is-primary" href="http://203.253.25.170:8080" target="_blank">Open Online Evaluation</a>
+  <a class="button is-primary" href="http://203.253.25.170:8080" target="_blank">Click here to launch evaluation</a>
 </div>  
 Click the button above to evaluate your model on the SIDL benchmark.
 
