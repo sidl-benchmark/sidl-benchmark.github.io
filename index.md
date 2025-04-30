@@ -22,8 +22,8 @@ data: "https://github.com/your-repo/dataset"
   margin-left: calc((100% - 100vw) / 2);
   display: grid;
   grid-template-columns: repeat(6, 1fr);
-  grid-gap: 0.5rem;
-  padding: 1rem 0;
+  grid-gap: 0;
+  padding: 0;
 }
 
 /* 2) 이미지 기본, 호버 스타일 */
@@ -35,7 +35,7 @@ data: "https://github.com/your-repo/dataset"
   cursor: pointer;
 }
 .gallery-wrapper img:hover {
-  transform: scale(1.2);
+  transform: scale(1.8);
   z-index: 10;
 }
 </style>
