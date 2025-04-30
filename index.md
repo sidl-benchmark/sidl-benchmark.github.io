@@ -15,15 +15,27 @@ code: "https://github.com/sidl-benchmark/sidl-benchmark.github.io"
 data: "https://github.com/your-repo/dataset"
 ---
 
-<!-- 페이지 전역 스타일 (이 페이지에서만 적용) -->
 <style>
-.gallery-wrapper .image img {
-  width: 100%;
-  transition: width 0.3s ease;
+/* 1) 화면 전체 폭을 쓰도록 껍데기 컨테이너 폭 풀어주기 */
+.gallery-wrapper {
+  width: 100vw;
+  margin-left: calc((100% - 100vw) / 2);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-gap: 0.5rem;
+  padding: 1rem 0;
 }
-.gallery-wrapper .image img:hover {
-  position: relative;
-  width: 1064px !important;
+
+/* 2) 이미지 기본, 호버 스타일 */
+.gallery-wrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+.gallery-wrapper img:hover {
+  transform: scale(1.2);
   z-index: 10;
 }
 </style>
@@ -31,37 +43,33 @@ data: "https://github.com/your-repo/dataset"
 <hr>
 
 <div class="gallery-wrapper">
-  <div class="columns is-multiline">
+  <img src="images/Web_01_W.png" alt="Example 001">
+  <img src="images/Web_02_D.png" alt="Example 002">
+  <img src="images/Web_03_F.jpg" alt="Example 003">
+  <img src="images/Web_04_W.png" alt="Example 004">
+  <img src="images/Web_05_F.png" alt="Example 005">
+  <img src="images/Web_06_W.png" alt="Example 006">
 
-    <div class="column is-2"><figure class="image"><img src="images/Web_01_W.png" alt="Example 001"></figure></div>
-    <div class="column is-2"><figure class="image"><img src="images/Web_02_D.png" alt="Example 002"></figure></div>
-    <div class="column is-2"><figure class="image"><img src="images/Web_03_F.jpg" alt="Example 003"></figure></div>
-    <div class="column is-2"><figure class="image"><img src="images/Web_04_W.png" alt="Example 004"></figure></div>
-    <div class="column is-2"><figure class="image"><img src="images/Web_05_F.png" alt="Example 005"></figure></div>
-    <div class="column is-2"><figure class="image"><img src="images/Web_06_W.png" alt="Example 006"></figure></div>
+  <img src="images/Web_07_W.png" alt="Example 007">
+  <img src="images/Web_08_S.png" alt="Example 008">
+  <img src="images/Web_09_W.jpg" alt="Example 009">
+  <img src="images/Web_10_W.jpg" alt="Example 010">
+  <img src="images/Web_11_W.png" alt="Example 011">
+  <img src="images/Web_12_S.png" alt="Example 012">
 
-    <div class="column is-2"><figure class="image"><img src="images/Web_07_W.png" alt="Example 007"></figure></div>
-    <div class="column is-2"><figure class="image"><img src="images/Web_08_S.png" alt="Example 008"></figure></div>
-    <div class="column is-2"><figure class="image"><img src="images/Web_09_W.jpg" alt="Example 009"></figure></div>
-    <div class="column is-2"><figure class="image"><img src="images/Web_10_W.jpg" alt="Example 010"></figure></div>
-    <div class="column is-2"><figure class="image"><img src="images/Web_11_W.png" alt="Example 011"></figure></div>
-    <div class="column is-2"><figure class="image"><img src="images/Web_12_S.png" alt="Example 012"></figure></div>
+  <img src="images/Web_13_F.png" alt="Example 013">
+  <img src="images/Web_14_W.jpg" alt="Example 014">
+  <img src="images/Web_15_F.jpg" alt="Example 015">
+  <img src="images/Web_16_S.png" alt="Example 016">
+  <img src="images/Web_17_S.jpg" alt="Example 017">
+  <img src="images/Web_18_F.jpg" alt="Example 018">
 
-    <div class="column is-2"><figure class="image"><img src="images/Web_13_F.png" alt="Example 013"></figure></div>
-    <div class="column is-2"><figure class="image"><img src="images/Web_14_W.jpg" alt="Example 014"></figure></div>
-    <div class="column is-2"><figure class="image"><img src="images/Web_15_F.jpg" alt="Example 015"></figure></div>
-    <div class="column is-2"><figure class="image"><img src="images/Web_16_S.png" alt="Example 016"></figure></div>
-    <div class="column is-2"><figure class="image"><img src="images/Web_17_S.jpg" alt="Example 017"></figure></div>
-    <div class="column is-2"><figure class="image"><img src="images/Web_18_F.jpg" alt="Example 018"></figure></div>
-
-    <div class="column is-2"><figure class="image"><img src="images/Web_19_D.jpg" alt="Example 019"></figure></div>
-    <div class="column is-2"><figure class="image"><img src="images/Web_20_F.png" alt="Example 020"></figure></div>
-    <div class="column is-2"><figure class="image"><img src="images/Web_21_D.jpg" alt="Example 021"></figure></div>
-    <div class="column is-2"><figure class="image"><img src="images/Web_22_W.jpg" alt="Example 022"></figure></div>
-    <div class="column is-2"><figure class="image"><img src="images/Web_23_F.jpg" alt="Example 023"></figure></div>
-    <div class="column is-2"><figure class="image"><img src="images/Web_24_W.png" alt="Example 024"></figure></div>
-
-  </div>
+  <img src="images/Web_19_D.jpg" alt="Example 019">
+  <img src="images/Web_20_F.png" alt="Example 020">
+  <img src="images/Web_21_D.jpg" alt="Example 021">
+  <img src="images/Web_22_W.jpg" alt="Example 022">
+  <img src="images/Web_23_F.jpg" alt="Example 023">
+  <img src="images/Web_24_W.png" alt="Example 024">
 </div>
 
 ## SIDL Dataset  
