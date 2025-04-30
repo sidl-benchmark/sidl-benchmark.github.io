@@ -14,10 +14,148 @@ video: "https://youtu.be/5nSJh-IPWd0"
 code: "https://github.com/sidl-benchmark/sidl-benchmark.github.io"
 data: "https://github.com/your-repo/dataset"
 ---
+<!--페이드아웃-->
+<style>
+    .gallery-wrapper .image img {
+      width: 100%;
+      transition: width 0.3s ease;
+    }
+    .gallery-wrapper .image img:hover {
+      position: relative;
+      width: 1064px !important;
+      z-index: 10;
+    }
+  </style>
 
 <body>
   <hr>
-  <img src = "images/Ex01.jpg" alt = "Example 001" style="display: block; margin: auto;">
+  <!--<img src = "images/Ex01.jpg" alt = "Example 001" style="display: block; margin: auto;">-->
+  <div class="gallery-wrapper">
+    <div class="columns is-multiline">
+    <div class="column is-2">
+      <figure class="image">
+        <img src="images/Web_01_W.png" alt="Example 001">
+      </figure>
+    </div>
+    <div class="column is-2">
+      <figure class="image">
+        <img src="images/Web_02_D.png" alt="Example 002">
+      </figure>
+    </div>
+    <div class="column is-2">
+      <figure class="image">
+        <img src="images/Web_03_F.jpg" alt="Example 003">
+      </figure>
+    </div>
+    <div class="column is-2">
+      <figure class="image">
+        <img src="images/Web_04_W.png" alt="Example 004">
+      </figure>
+    </div>
+    <div class="column is-2">
+      <figure class="image">
+        <img src="images/Web_05_F.png" alt="Example 005">
+      </figure>
+    </div>
+    <div class="column is-2">
+      <figure class="image">
+        <img src="images/Web_06_W.png" alt="Example 006">
+      </figure>
+    </div>
+
+    <div class="column is-2">
+      <figure class="image">
+        <img src="images/Web_07_W.png" alt="Example 007">
+      </figure>
+    </div>
+    <div class="column is-2">
+      <figure class="image">
+        <img src="images/Web_08_S.png" alt="Example 008">
+      </figure>
+    </div>
+    <div class="column is-2">
+      <figure class="image">
+        <img src="images/Web_09_W.jpg" alt="Example 009">
+      </figure>
+    </div>
+    <div class="column is-2">
+      <figure class="image">
+        <img src="images/Web_10_W.jpg" alt="Example 010">
+      </figure>
+    </div>
+    <div class="column is-2">
+      <figure class="image">
+        <img src="images/Web_11_W.png" alt="Example 011">
+      </figure>
+    </div>
+    <div class="column is-2">
+      <figure class="image">
+        <img src="images/Web_12_S.png alt="Example 012">
+      </figure>
+    </div>
+
+    <div class="column is-2">
+      <figure class="image">
+        <img src="images/Web_13_F.png" alt="Example 013">
+      </figure>
+    </div>
+    <div class="column is-2">
+      <figure class="image">
+        <img src="images/Web_14_W.jpg" alt="Example 014">
+      </figure>
+    </div>
+    <div class="column is-2">
+      <figure class="image">
+        <img src="images/Web_15_F.jpg" alt="Example 015">
+      </figure>
+    </div>
+    <div class="column is-2">
+      <figure class="image">
+        <img src="images/Web_16_S.png" alt="Example 016">
+      </figure>
+    </div>
+    <div class="column is-2">
+      <figure class="image">
+        <img src="images/Web_17_S.jpg" alt="Example 017">
+      </figure>
+    </div>
+    <div class="column is-2">
+      <figure class="image">
+        <img src="images/Web_18_F.jpg" alt="Example 018">
+      </figure>
+    </div>
+
+    <div class="column is-2">
+      <figure class="image">
+        <img src="images/Web_19_D.jpg" alt="Example 019">
+      </figure>
+    </div>
+    <div class="column is-2">
+      <figure class="image">
+        <img src="images/Web_20_F.png" alt="Example 020">
+      </figure>
+    </div>
+    <div class="column is-2">
+      <figure class="image">
+        <img src="images/Web_21_D.jpg" alt="Example 021">
+      </figure>
+    </div>
+    <div class="column is-2">
+      <figure class="image">
+        <img src="images/Web_22_W.jpg" alt="Example 022">
+      </figure>
+    </div>
+    <div class="column is-2">
+      <figure class="image">
+        <img src="images/Web_23_F.jpg" alt="Example 023">
+      </figure>
+    </div>
+    <div class="column is-2">
+      <figure class="image">
+        <img src="images/Web_24_W.png" alt="Example 024">
+      </figure>
+    </div>
+  </div>
 </body>
 
 
