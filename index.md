@@ -27,7 +27,6 @@ data: "https://github.com/your-repo/dataset"
     }
   </style>
 
-<body>
   <hr>
   <!--<img src = "images/Ex01.jpg" alt = "Example 001" style="display: block; margin: auto;">-->
   <div class="gallery-wrapper">
@@ -90,7 +89,7 @@ data: "https://github.com/your-repo/dataset"
     </div>
     <div class="column is-2">
       <figure class="image">
-        <img src="images/Web_12_S.png alt="Example 012">
+        <img src="images/Web_12_S.png" alt="Example 012">
       </figure>
     </div>
 
@@ -156,7 +155,6 @@ data: "https://github.com/your-repo/dataset"
       </figure>
     </div>
   </div>
-</body>
 
 
 <!-- Using HTML to center the abstract -->
