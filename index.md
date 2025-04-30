@@ -35,7 +35,7 @@ data: "https://github.com/your-repo/dataset"
   cursor: pointer;
 }
 .gallery-wrapper img:hover {
-  transform: scale(1.8);
+  transform: scale(1.3);
   z-index: 10;
 }
 </style>
