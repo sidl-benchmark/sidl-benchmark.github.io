@@ -3,10 +3,7 @@ layout: project_page
 permalink: /
 title: "SIDL: A Real-World Dataset for Restoring Smartphone Images with Dirty Lenses"
 presentation: "AAAI 2025"
-authors:
-  - Sooyoung Choi*
-  - Sungyong Park*
-  - Heewon Kim
+authors: "Sooyoung Choi*,   Sungyong Park*,   Heewon Kim"
 affiliations:
   - Soongsil University
 paper: "https://ojs.aaai.org/index.php/AAAI/article/view/32257"
@@ -43,33 +40,33 @@ data: "https://github.com/your-repo/dataset"
 <hr>
 
 <div class="gallery-wrapper">
-  <img src="images/Web_01_W.png" alt="Example 001">
-  <img src="images/Web_02_D.png" alt="Example 002">
-  <img src="images/Web_03_F.jpg" alt="Example 003">
-  <img src="images/Web_04_W.png" alt="Example 004">
-  <img src="images/Web_05_F.png" alt="Example 005">
-  <img src="images/Web_06_W.png" alt="Example 006">
+  <img src="images/Web_01_W.webp" alt="Example 001">
+  <img src="images/Web_02_D.webp" alt="Example 002">
+  <img src="images/Web_03_F.webp" alt="Example 003">
+  <img src="images/Web_04_W.webp" alt="Example 004">
+  <img src="images/Web_05_F.webp" alt="Example 005">
+  <img src="images/Web_06_W.webp" alt="Example 006">
 
-  <img src="images/Web_07_W.png" alt="Example 007">
-  <img src="images/Web_08_S.png" alt="Example 008">
-  <img src="images/Web_09_W.jpg" alt="Example 009">
-  <img src="images/Web_10_W.jpg" alt="Example 010">
-  <img src="images/Web_11_W.png" alt="Example 011">
-  <img src="images/Web_12_S.png" alt="Example 012">
+  <img src="images/Web_07_W.webp" alt="Example 007">
+  <img src="images/Web_08_S.webp" alt="Example 008">
+  <img src="images/Web_09_W.webp" alt="Example 009">
+  <img src="images/Web_10_W.webp" alt="Example 010">
+  <img src="images/Web_11_W.webp" alt="Example 011">
+  <img src="images/Web_12_S.webp" alt="Example 012">
 
-  <img src="images/Web_13_F.png" alt="Example 013">
-  <img src="images/Web_14_W.jpg" alt="Example 014">
-  <img src="images/Web_15_F.jpg" alt="Example 015">
-  <img src="images/Web_16_S.png" alt="Example 016">
-  <img src="images/Web_17_S.jpg" alt="Example 017">
-  <img src="images/Web_18_F.jpg" alt="Example 018">
+  <img src="images/Web_13_F.webp" alt="Example 013">
+  <img src="images/Web_14_W.webp" alt="Example 014">
+  <img src="images/Web_15_F.webp" alt="Example 015">
+  <img src="images/Web_16_S.webp" alt="Example 016">
+  <img src="images/Web_17_S.webp" alt="Example 017">
+  <img src="images/Web_18_F.webp" alt="Example 018">
 
-  <img src="images/Web_19_D.jpg" alt="Example 019">
-  <img src="images/Web_20_F.png" alt="Example 020">
-  <img src="images/Web_21_D.jpg" alt="Example 021">
-  <img src="images/Web_22_W.jpg" alt="Example 022">
-  <img src="images/Web_23_F.jpg" alt="Example 023">
-  <img src="images/Web_24_W.png" alt="Example 024">
+  <img src="images/Web_19_D.webp" alt="Example 019">
+  <img src="images/Web_20_F.webp" alt="Example 020">
+  <img src="images/Web_21_D.webp" alt="Example 021">
+  <img src="images/Web_22_W.webp" alt="Example 022">
+  <img src="images/Web_23_F.webp" alt="Example 023">
+  <img src="images/Web_24_W.webp" alt="Example 024">
 </div>
 
 ## SIDL Dataset  
