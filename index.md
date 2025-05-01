@@ -75,7 +75,7 @@ We provide 80% of the scenes for training and learning. The remaining scenes are
 ### Image acquisition process
 We used a custom 3D-printed film holder to capture contaminated images under controlled conditions with various degradations.
 <div style="text-align:">
-    <img src="images/image_acquisition_process.gif" alt="Image Acquisition Process">
+    <img src="images/image_acquisition_process.gif" alt="Image Acquisition Process" style="border: 1px solid black;">
 </div>
 
 ### Patchify images (512×512)  
