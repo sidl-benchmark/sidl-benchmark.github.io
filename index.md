@@ -72,6 +72,12 @@ data: "https://github.com/your-repo/dataset"
 ## SIDL Dataset  
 We provide 80% of the scenes for training and learning. The remaining scenes are used for online evaluation.
 
+### Image acquisition process
+We used a custom 3D-printed film holder to capture contaminated images under controlled conditions with various degradations.
+<div style="text-align:">
+    <img src="images/image_acquisition_process.gif" alt="Image Acquisition Process" style="box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);">
+</div>
+
 ### Patchify images (512×512)  
 For efficient training and learning, we provide patchified images.  
 <div class="buttons" style="text-align: center; margin-top: 1em;">
