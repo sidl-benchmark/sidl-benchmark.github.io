@@ -78,13 +78,13 @@ Smartphone cameras are ubiquitous in daily life, yet their performance can be se
 
 ## SIDL Dataset
 
-The SIDL benchmark contains 300 static scenes, each captured twice—once without contamination (clean reference) and once through a thin film carrying a controlled deposit. In total, there are 1,588 degraded–clean image pairs at full ProRAW resolution (4032 × 3024, 12-bit DNG). We simulate five real-world contaminant types—fingerprints, dust, scratches, water drops, and mixed debris—applied to the smartphone lens. To allow fine-grained evaluation, we split the degraded images into three difficulty bands based on PSNR between the clean and dirty images: “Easy” (> 25 dB), “Medium” (20–25 dB), and “Hard” (< 20 dB). Scenes span indoor and outdoor settings, day and night lighting, and three levels of artificial illumination. We allocate 240 scenes for training, 20 for validation, and 40 for testing, ensuring each split has balanced coverage of scene types and difficulty levels.
+The SIDL benchmark contains 300 static scenes, each captured twice—once without contamination (clean reference) and once through a thin film carrying a controlled deposit. In total, there are 1,588 degraded–clean image pairs at full ProRAW resolution (4032 × 3024, 12-bit DNG). We simulate five real-world contaminant types—fingerprints, dust, scratches, water drops, and mixed debris—applied to the smartphone lens. To allow fine-grained evaluation, we split the degraded images into three difficulty bands based on PSNR between the clean and dirty images: “Easy”, “Medium”, and “Hard”. Scenes span indoor and outdoor settings, day and night lighting, and three levels of artificial illumination. We allocate 240 scenes for training, 20 for validation, and 40 for testing, ensuring each split has balanced coverage of scene types and difficulty levels.
 
 <div style="text-align:center; margin:1em 0;">
   <img src="images/compared.png" alt="Comparison of SIDL with prior datasets" style="max-width:100%; box-shadow:0 0 5px rgba(0,0,0,.2);">
 </div>
 
-SIDL is unique in offering multiple, *real* distortion types at smartphone resolution, together with paired RAW data and a large, diverse scene set—unlike previous benchmarks that focus on a single distortion or rely on synthetic noise models.
+SIDL is unique in offering multiple, real distortion types at smartphone resolution, along with paired RAW data and a large, diverse scene set, unlike previous benchmarks that focus on a single distortion or rely on synthetic noise models.
 
 ---
 
