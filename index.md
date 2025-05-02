@@ -37,6 +37,35 @@ data: "https://github.com/your-repo/dataset"
 
 <hr>
 
+<div class="gallery-wrapper">
+  <img src="images/Web_01_W.webp" alt="Example 001">
+  <img src="images/Web_02_D.webp" alt="Example 002">
+  <img src="images/Web_03_F.webp" alt="Example 003">
+  <img src="images/Web_04_W.webp" alt="Example 004">
+  <img src="images/Web_05_F.webp" alt="Example 005">
+  <img src="images/Web_06_W.webp" alt="Example 006">
+  <img src="images/Web_07_W.webp" alt="Example 007">
+  <img src="images/Web_08_S.webp" alt="Example 008">
+  <img src="images/Web_09_W.webp" alt="Example 009">
+  <img src="images/Web_10_W.webp" alt="Example 010">
+  <img src="images/Web_11_W.webp" alt="Example 011">
+  <img src="images/Web_12_S.webp" alt="Example 012">
+  <img src="images/Web_13_F.webp" alt="Example 013">
+  <img src="images/Web_14_W.webp" alt="Example 014">
+  <img src="images/Web_15_F.webp" alt="Example 015">
+  <img src="images/Web_16_S.webp" alt="Example 016">
+  <img src="images/Web_17_S.webp" alt="Example 017">
+  <img src="images/Web_18_F.webp" alt="Example 018">
+  <img src="images/Web_19_D.webp" alt="Example 019">
+  <img src="images/Web_20_F.webp" alt="Example 020">
+  <img src="images/Web_21_D.webp" alt="Example 021">
+  <img src="images/Web_22_W.webp" alt="Example 022">
+  <img src="images/Web_23_F.webp" alt="Example 023">
+  <img src="images/Web_24_W.webp" alt="Example 024">
+</div>
+
+---
+
 ## Abstract
 
 > Smartphone cameras are ubiquitous in daily life, yet their performance can be severely impacted by dirty lenses, leading to degraded image quality. This issue is often overlooked in image restoration research, which assumes ideal or controlled lens conditions. To address this gap, we introduce SIDL (Smartphone Images with Dirty Lenses), a new real-world dataset capturing five types of common contaminants—water droplets, fingerprints, dust, scratches, and mixed debris—paired with clean references across 300 diverse scenes. Each contaminated–clean pair enables supervised learning for robust restoration. We benchmark several state-of-the-art restoration models on SIDL and find that while they partially mitigate blur and occlusion, they struggle with the variety and realism of the degradations. Our results underscore the need for methods tailored to lens contamination. Visit our project site for data, code, and evaluation server.
