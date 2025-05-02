@@ -68,100 +68,113 @@ data: "https://github.com/your-repo/dataset"
 
 ## Abstract
 
-> Smartphone cameras are ubiquitous in daily life, yet their performance can be severely impacted by dirty lenses, leading to degraded image quality. This issue is often overlooked in image restoration research, which assumes ideal or controlled lens conditions. To address this gap, we introduce SIDL (Smartphone Images with Dirty Lenses), a new real-world dataset capturing five types of common contaminants—water droplets, fingerprints, dust, scratches, and mixed debris—paired with clean references across 300 diverse scenes. Each contaminated–clean pair enables supervised learning for robust restoration. We benchmark several state-of-the-art restoration models on SIDL and find that while they partially mitigate blur and occlusion, they struggle with the variety and realism of the degradations. Our results underscore the need for methods tailored to lens contamination. Visit our project site for data, code, and evaluation server.
+Smartphone cameras are ubiquitous in daily life, yet their performance can be severely impacted by dirty lenses, leading to degraded image quality. This issue is often overlooked in image restoration research, which assumes ideal or controlled lens conditions. To address this gap, we introduce SIDL (Smartphone Images with Dirty Lenses), a new real-world dataset capturing five types of common contaminants—water droplets, fingerprints, dust, scratches, and mixed debris—paired with clean references across 300 diverse scenes. Each contaminated–clean pair enables supervised learning for robust restoration. We benchmark several state-of-the-art restoration models on SIDL and find that while they partially mitigate blur and occlusion, they struggle with the variety and realism of the degradations. Our results underscore the need for methods tailored to lens contamination. Visit our project site for data, code, and evaluation server.
 
 ---
 
-## Image Acquisition
+## Image-Acquisition Setup (Figure 2)
 
-We captured each scene using a 3D-printed holder that mounts thin films carrying controlled deposits. By varying the type (e.g., a single water droplet vs. clustered fingerprints), size, and placement of the contaminants, we simulate real-world dirt accumulation on smartphone lenses. The holder ensures precise alignment between contaminated and clean shots.  
-
-<div style="text-align: center; margin: 1em 0;">
-  <img src="images/image_acquisition_process.gif" alt="Controlled image acquisition with dirty-lens holder" style="box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); max-width:80%;">
+<div style="text-align:center;margin:1em 0;">
+  <img src="images/image_acquisition_process.gif"
+       alt="Custom film-holder and capture pipeline"
+       style="max-width:80%;box-shadow:0 0 5px rgba(0,0,0,.2);">
+  <p><strong>Figure 2.</strong> A 3D-printed <em>film holder</em> secures PVC “dirty films” directly in front of an iPhone 12 Pro lens. Scenes are captured twice: (b) without a film for a clean reference and (c) with a dirty film to obtain a degraded image. :contentReference[oaicite:2]{index=2}:contentReference[oaicite:3]{index=3}</p>
 </div>
 
 ---
 
-## SIDL Dataset  
+## SIDL Dataset
 
-SIDL comprises 300 static scenes captured under varied lighting (indoor/outdoor, day/night) and camera settings. For each scene:
+SIDL provides 1 ,588 degraded images paired with 300 clean references, covering:
 
-- **Clean reference**: an uncontaminated image.  
-- **Five degradations**: water, fingerprint, dust, scratch, mixed.  
-- **Difficulty levels**: based on reference vs. degraded PSNR, divided into Easy, Medium, and Hard.  
+* **Five real degradations**: fingerprint, dust, scratch, water drop, mixed.  
+* **Diverse scenes**: indoor/outdoor, day/night, three artificial-light levels.  
+* **Difficulty bands**: Easy (PSNR > 25 dB), Medium (20–25 dB), Hard (< 20 dB).  
+* **High fidelity**: 4032 × 3024 px ProRAW + full 12-bit DNG release.
 
-We split scenes into 240 for training, 20 for validation, and 40 for testing.
+### Table 1 – Dataset Comparison
 
-To illustrate the challenge, SIDL images span a PSNR range from 15 dB (hardest) to 30 dB (easiest) relative to their clean counterparts—far wider than existing benchmarks, which typically assume controlled noise models.
+<div style="text-align:center;margin:1em 0;">
+  <img src="images/compared.png" alt="Table 1 – Restoration-dataset comparison"
+       style="max-width:100%;box-shadow:0 0 5px rgba(0,0,0,.2);">
+  <p><strong>Table 1.</strong> Prior dirty-lens datasets are either single-type (Wang et al.) or synthetic (“Let’s see clearly”). SIDL is the first to provide <em>multiple real distortions</em> with paired RAW data at smartphone resolution. :contentReference[oaicite:4]{index=4}:contentReference[oaicite:5]{index=5}</p>
+</div>
 
-![Dataset comparison chart](images/compared.png)
+### Scene Statistics & Difficulty Split
 
-Our dataset statistics highlight balanced coverage of environment types (e.g., urban, indoor labs) and contaminant appearances.
-
-![Scene distribution across conditions](images/st.png)
+<div style="display:flex;flex-wrap:wrap;gap:1em;margin:1.5em 0;">
+  <div style="flex:1;min-width:300px;text-align:center;">
+    <img src="images/st.png" alt="Figure 3 – Scene statistics"
+         style="max-width:100%;box-shadow:0 0 5px rgba(0,0,0,.2);">
+    <p><strong>Figure 3.</strong> 300 scenes span times of day, locations, and light intensities. The train/val/test split is 240 / 20 / 40 scenes. :contentReference[oaicite:6]{index=6}:contentReference[oaicite:7]{index=7}</p>
+  </div>
+  <div style="flex:1;min-width:300px;text-align:center;">
+    <img src="images/figure5.png" alt="Figure 5 – PSNR-based difficulty bands"
+         style="max-width:100%;box-shadow:0 0 5px rgba(0,0,0,.2);">
+    <p><strong>Figure 5.</strong> PSNR histogram (water-drop example) used to label images as <em>Easy, Medium, Hard</em>. :contentReference[oaicite:8]{index=8}:contentReference[oaicite:9]{index=9}</p>
+  </div>
+</div>
 
 ---
 
-### Benchmarking Results  
+## Benchmark Results
 
-We evaluate several leading restoration methods on SIDL—both classical and deep-learning approaches. While all methods improve perceptual quality and recover fine details under mild blur, their performance degrades sharply on heavy occlusions and nonuniform artifacts. Average PSNR across contaminants ranges from 18 dB (Hard) to 26 dB (Easy), and SSIM from 0.45 to 0.82, leaving substantial room for improvement.
+*Six restoration backbones* (AirNet, NAFNet, Restormer, FFTformer, DiffUIR, MambaIR) were trained on SIDL. DiffUIR yields the best PSNR/SSIM across all cases, yet qualitative artifacts remain.
 
-![Quantitative performance plot](images/quantitative.png)
+<div style="text-align:center;margin:1em 0;">
+  <img src="images/quantitative.png" alt="Table 2 – Quantitative results"
+       style="max-width:100%;box-shadow:0 0 5px rgba(0,0,0,.2);">
+  <p><strong>Table 2.</strong> PSNR / SSIM (↑) broken down by degradation and difficulty. Best scores in red, second-best in blue. :contentReference[oaicite:10]{index=10}:contentReference[oaicite:11]{index=11}</p>
+</div>
 
-Qualitative examples reveal that common artifacts—such as residual halos around water drops or smearing of fingerprint edges—remain after restoration, especially in complex lighting.
-
-![Sample restoration results on mixed debris](images/qualitative.png)
+<div style="text-align:center;margin:1em 0;">
+  <img src="images/qualitative.png" alt="Figure 6 – Qualitative results"
+       style="max-width:100%;box-shadow:0 0 5px rgba(0,0,0,.2);">
+  <p><strong>Figure 6.</strong> Visual comparison of SotA models on SIDL (medium/hard cases). Persistent halos and color bleeding underscore the challenge. :contentReference[oaicite:12]{index=12}:contentReference[oaicite:13]{index=13}</p>
+</div>
 
 ---
 
 ## Download & Evaluation
 
-### Patchified Images (512 × 512)  
-Ideal for training batch-based models:
-
-<div class="buttons" style="text-align: center; margin-top: 1em;">
-  <a class="button is-primary" href="https://drive.google.com/file/d/1es3rPo5Y9O96EjDVXanUY8NpaRprWH-h/view?usp=sharing" target="_blank">Train Patches</a>
-  <a class="button is-primary" href="https://drive.google.com/file/d/1u5-MDauO3XolXsU6eOARwlXo7SnpLwqA/view?usp=sharing" target="_blank">Validation Patches</a>
-  <a class="button is-primary" href="https://drive.google.com/file/d/1-SFyyjH0G3C68OfDjZ_O7M4mOqkcJdEf/view?usp=sharing" target="_blank">Test Patches</a>
+### Patchified 512 × 512  
+<div class="buttons" style="text-align:center;margin-top:1em;">
+  <a class="button is-primary" href="https://drive.google.com/file/d/1es3rPo5Y9O96EjDVXanUY8NpaRprWH-h/view?usp=sharing" target="_blank">Train</a>
+  <a class="button is-primary" href="https://drive.google.com/file/d/1u5-MDauO3XolXsU6eOARwlXo7SnpLwqA/view?usp=sharing" target="_blank">Val</a>
+  <a class="button is-primary" href="https://drive.google.com/file/d/1-SFyyjH0G3C68OfDjZ_O7M4mOqkcJdEf/view?usp=sharing" target="_blank">Test</a>
 </div>
 
-### Full-Resolution Images (4032 × 3024)  
-For ISP experiments and high-quality restoration:
-
-<div class="buttons" style="text-align: center; margin-top: 1em;">
-  <a class="button is-primary" href="https://drive.google.com/file/d/1s_gUw1DCqokihl3YtO3lu9_GnLZaSElI/view?usp=sharing" target="_blank">Train Full-Res</a>
-  <a class="button is-primary" href="https://drive.google.com/file/d/1OHxG8Jh0goKIhkJTe9NXZ6uIuD5qVaNH/view?usp=sharing" target="_blank">Validation Full-Res</a>
+### Full-Resolution 4032 × 3024  
+<div class="buttons" style="text-align:center;margin-top:1em;">
+  <a class="button is-primary" href="https://drive.google.com/file/d/1s_gUw1DCqokihl3YtO3lu9_GnLZaSElI/view?usp=sharing" target="_blank">Train</a>
+  <a class="button is-primary" href="https://drive.google.com/file/d/1OHxG8Jh0goKIhkJTe9NXZ6uIuD5qVaNH/view?usp=sharing" target="_blank">Val</a>
 </div>
 
-### RAW Files & Metadata  
-Access DNG files with EXIF and capture settings:
-
-<div class="buttons" style="text-align: center; margin-top: 1em;">
-  <a class="button is-primary" href="https://drive.google.com/file/d/1k78IIsUl2eYPnPvWkBampU0qlMrW4F-u/view?usp=sharing" target="_blank">DNG RAW Images</a>
-  <a class="button is-primary" href="https://drive.google.com/file/d/1lAab5F3jjCByY4OEvGSAfykyAqp2wfTi/view?usp=sharing" target="_blank">Metadata (JSON)</a>
+### RAW DNG & Metadata  
+<div class="buttons" style="text-align:center;margin-top:1em;">
+  <a class="button is-primary" href="https://drive.google.com/file/d/1k78IIsUl2eYPnPvWkBampU0qlMrW4F-u/view?usp=sharing" target="_blank">DNG</a>
+  <a class="button is-primary" href="https://drive.google.com/file/d/1lAab5F3jjCByY4OEvGSAfykyAqp2wfTi/view?usp=sharing" target="_blank">JSON metadata</a>
 </div>
 
 ### Online Evaluation  
-Test your model on our leaderboard server:
-
-<div class="buttons" style="text-align: center; margin-top: 1em;">
-  <a class="button is-primary" href="http://203.253.25.170:8080" target="_blank">Launch Evaluation</a>
+<div class="buttons" style="text-align:center;margin-top:1em;">
+  <a class="button is-primary" href="http://203.253.25.170:8080" target="_blank">Leaderboard Server</a>
 </div>
 
 ---
 
-### ISP Pipeline  
-Coming soon.
+## ISP Pipeline  
+*(to be released)*
 
-### Citation
+---
+
+## Citation
 
 ```bibtex
 @inproceedings{choi2025sidl,
   title     = {SIDL: A Real-World Dataset for Restoring Smartphone Images with Dirty Lenses},
   author    = {Choi, Sooyoung and Park, Sungyong and Kim, Heewon},
   booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
-  volume    = {39},
-  number    = {3},
-  pages     = {2545--2554},
-  year      = {2025}
+  volume    = {39}, number = {3}, pages = {2545--2554}, year = {2025}
 }
+```
