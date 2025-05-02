@@ -137,28 +137,36 @@ SIDL provides 1 ,588 degraded images paired with 300 clean references, covering:
 
 ## Download & Evaluation
 
-### Patchified 512 × 512  
-<div class="buttons" style="text-align:center;margin-top:1em;">
-  <a class="button is-primary" href="https://drive.google.com/file/d/1es3rPo5Y9O96EjDVXanUY8NpaRprWH-h/view?usp=sharing" target="_blank">Train</a>
-  <a class="button is-primary" href="https://drive.google.com/file/d/1u5-MDauO3XolXsU6eOARwlXo7SnpLwqA/view?usp=sharing" target="_blank">Val</a>
-  <a class="button is-primary" href="https://drive.google.com/file/d/1-SFyyjH0G3C68OfDjZ_O7M4mOqkcJdEf/view?usp=sharing" target="_blank">Test</a>
+### Patchified Images (512 × 512)  
+For efficient training and learning, we provide patchified images.
+
+<div class="buttons" style="text-align: center; margin-top: 1em;">
+  <a class="button is-primary" href="https://drive.google.com/file/d/1es3rPo5Y9O96EjDVXanUY8NpaRprWH-h/view?usp=sharing" target="_blank">Train Patches</a>
+  <a class="button is-primary" href="https://drive.google.com/file/d/1u5-MDauO3XolXsU6eOARwlXo7SnpLwqA/view?usp=sharing" target="_blank">Validation Patches</a>
+  <a class="button is-primary" href="https://drive.google.com/file/d/1-SFyyjH0G3C68OfDjZ_O7M4mOqkcJdEf/view?usp=sharing" target="_blank">Test Patches</a>
 </div>
 
-### Full-Resolution 4032 × 3024  
-<div class="buttons" style="text-align:center;margin-top:1em;">
-  <a class="button is-primary" href="https://drive.google.com/file/d/1s_gUw1DCqokihl3YtO3lu9_GnLZaSElI/view?usp=sharing" target="_blank">Train</a>
-  <a class="button is-primary" href="https://drive.google.com/file/d/1OHxG8Jh0goKIhkJTe9NXZ6uIuD5qVaNH/view?usp=sharing" target="_blank">Val</a>
+### Full-Resolution Images (4032 × 3024)  
+High-resolution captures for offline analysis and ISP experiments.
+
+<div class="buttons" style="text-align: center; margin-top: 1em;">
+  <a class="button is-primary" href="https://drive.google.com/file/d/1s_gUw1DCqokihl3YtO3lu9_GnLZaSElI/view?usp=sharing" target="_blank">Train Full-Res</a>
+  <a class="button is-primary" href="https://drive.google.com/file/d/1OHxG8Jh0goKIhkJTe9NXZ6uIuD5qVaNH/view?usp=sharing" target="_blank">Validation Full-Res</a>
 </div>
 
-### RAW DNG & Metadata  
-<div class="buttons" style="text-align:center;margin-top:1em;">
-  <a class="button is-primary" href="https://drive.google.com/file/d/1k78IIsUl2eYPnPvWkBampU0qlMrW4F-u/view?usp=sharing" target="_blank">DNG</a>
-  <a class="button is-primary" href="https://drive.google.com/file/d/1lAab5F3jjCByY4OEvGSAfykyAqp2wfTi/view?usp=sharing" target="_blank">JSON metadata</a>
+### RAW Files  
+We also provide RAW image files (DNG) along with metadata for ISP-level research.
+
+<div class="buttons" style="text-align: center; margin-top: 1em;">
+  <a class="button is-primary" href="https://drive.google.com/file/d/1k78IIsUl2eYPnPvWkBampU0qlMrW4F-u/view?usp=sharing" target="_blank">DNG RAW Images</a>
+  <a class="button is-primary" href="https://drive.google.com/file/d/1lAab5F3jjCByY4OEvGSAfykyAqp2wfTi/view?usp=sharing" target="_blank">Metadata (JSON)</a>
 </div>
 
 ### Online Evaluation  
-<div class="buttons" style="text-align:center;margin-top:1em;">
-  <a class="button is-primary" href="http://203.253.25.170:8080" target="_blank">Leaderboard Server</a>
+Click below to evaluate your model on the SIDL benchmark leaderboard.
+
+<div class="buttons" style="text-align: center; margin-top: 1em;">
+  <a class="button is-primary" href="http://203.253.25.170:8080" target="_blank">Launch Online Evaluation</a>
 </div>
 
 ---
