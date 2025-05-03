@@ -10,6 +10,7 @@ paper: "https://ojs.aaai.org/index.php/AAAI/article/view/32257"
 video: "https://youtu.be/5nSJh-IPWd0"
 code: "https://github.com/sidl-benchmark/sidl-benchmark.github.io"
 data: "https://github.com/your-repo/dataset"
+colab demo : "https://colab.research.google.com/drive/12sxewePJZcS76chnVguBmKMQKK7XAExP?usp=sharing"
 ---
 
 <style>
@@ -168,12 +169,6 @@ Submit your model outputs to our leaderboard server and compare against publishe
 
 ---
 
-### Colab Demo
-
-You can try NAFNet on the SIDL dataset in this Colab demo
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/12sxewePJZcS76chnVguBmKMQKK7XAExP?usp=sharing)
-
----
 
 
 ## ISP Pipeline  
