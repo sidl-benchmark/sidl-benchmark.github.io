@@ -100,18 +100,6 @@
                 </a>
               </span>
               {% endif %}
-              <!-- Code Link. -->
-              {% if page.code %}
-              <span class="link-block">
-                <a href="{{ page.code }}"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="fab fa-github"></i>
-                  </span>
-                  <span>Code</span>
-                  </a>
-              </span>
-              {% endif %}
               <!-- Dataset Link. -->
               {% if page.data %}
               <span class="link-block">
@@ -121,6 +109,20 @@
                       <i class="fas fa-database"></i>
                   </span>
                   <span>Data</span>
+                </a>
+              </span>
+              {% endif %}
+              <!-- Colab Demo Link. -->
+              {% if page.colab %}
+              <span class="link-block">
+                <a href="{{ page.colab }}"
+                   class="external-link button is-normal is-rounded is-dark"
+                   target="_blank">
+                  <img
+                    src="https://colab.research.google.com/assets/colab-badge.svg"
+                    alt="Open in Colab"
+                    style="height:1.2em; vertical-align:middle;"
+                  />
                 </a>
               </span>
               {% endif %}
