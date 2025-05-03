@@ -115,14 +115,18 @@
               <!-- Colab Demo Link. -->
               {% if page.colab %}
               <span class="link-block">
-                <a href="{{ page.colab }}"
-                   class="external-link button is-normal is-rounded is-dark"
-                   target="_blank">
-                  <img
-                    src="https://colab.research.google.com/assets/colab-badge.svg"
-                    alt="Open in Colab"
-                    style="height:1.2em; vertical-align:middle;"
-                  />
+                <a
+                  href="{{ page.colab }}"
+                  class="external-link button is-normal is-rounded is-dark"
+                  target="_blank"
+                >
+                  <span class="icon">
+                    <!-- either use a FontAwesome icon if you have one... -->
+                    <i class="fab fa-google"></i>
+                    <!-- or drop in a tiny Colab‐logo SVG (white) you host yourself -->
+                    <!-- <img src="/assets/colab-icon-white.svg" style="height:1em;"> -->
+                  </span>
+                  <span>Colab Demo</span>
                 </a>
               </span>
               {% endif %}
