@@ -9,7 +9,7 @@ affiliations:
 paper: "https://ojs.aaai.org/index.php/AAAI/article/view/32257"
 video: "https://youtu.be/5nSJh-IPWd0"
 data: "https://drive.google.com/drive/folders/1RypnvYYLD3PIld2W4r3NtZQ_SbIDm0w-?usp=sharing"
-colab : "https://colab.research.google.com/drive/12sxewePJZcS76chnVguBmKMQKK7XAExP?usp=sharing"
+colab: "https://colab.research.google.com/drive/12sxewePJZcS76chnVguBmKMQKK7XAExP?usp=sharing"
 ---
 
 <style>
