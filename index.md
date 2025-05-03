@@ -138,25 +138,25 @@ We evaluated six state-of-the-art restoration architectures (AirNet, NAFNet, Res
 For efficient batch training, download our pre-cropped patches:
 
 <div class="buttons" style="text-align:center; margin-top:1em;">
-  <a class="button is-primary" href="https://drive.google.com/file/d/1es3rPo5Y9O96EjDVXanUY8NpaRprWH-h/view?usp=sharing" target="_blank">Train Patches</a>
-  <a class="button is-primary" href="https://drive.google.com/file/d/1u5-MDauO3XolXsU6eOARwlXo7SnpLwqA/view?usp=sharing" target="_blank">Validation Patches</a>
-  <a class="button is-primary" href="https://drive.google.com/file/d/1-SFyyjH0G3C68OfDjZ_O7M4mOqkcJdEf/view?usp=sharing" target="_blank">Test Patches</a>
+  <a class="button is-primary" href="https://drive.google.com/drive/folders/1Bmw2s0OfnwsAEdd81er_80dP4m9IlvgO?usp=sharing" target="_blank">Train Patches</a>
+  <a class="button is-primary" href="https://drive.google.com/file/d/13sClVSqtWCZNiApykjtDfFCFe35OtauR/view?usp=sharing" target="_blank">Validation Patches</a>
+  <a class="button is-primary" href="https://drive.google.com/file/d/1exvxODE1w4AitIqkRmB_XqCow3YlzLYj/view?usp=sharing" target="_blank">Test Patches</a>
 </div>
 
 ### Full-Resolution Images (4032 × 3024)  
-Download the high-res ProRAW captures for ISP research:
+Download the high-resolution images:
 
 <div class="buttons" style="text-align:center; margin-top:1em;">
-  <a class="button is-primary" href="https://drive.google.com/file/d/1s_gUw1DCqokihl3YtO3lu9_GnLZaSElI/view?usp=sharing" target="_blank">Train Full-Res</a>
-  <a class="button is-primary" href="https://drive.google.com/file/d/1OHxG8Jh0goKIhkJTe9NXZ6uIuD5qVaNH/view?usp=sharing" target="_blank">Validation Full-Res</a>
+  <a class="button is-primary" href="https://drive.google.com/drive/folders/1chLRpBtGzTkAX_7v-ycPgL_X1-mezv2r?usp=sharing" target="_blank">Train Full-Res</a>
+  <a class="button is-primary" href="https://drive.google.com/file/d/1bjb66VoDSeKiKWRLube-J_vbW9cfjK35/view?usp=sharing" target="_blank">Validation Full-Res</a>
 </div>
 
 ### RAW DNG & Metadata  
 Access the original 12-bit DNG files and JSON metadata:
 
 <div class="buttons" style="text-align:center; margin-top:1em;">
-  <a class="button is-primary" href="https://drive.google.com/file/d/1k78IIsUl2eYPnPvWkBampU0qlMrW4F-u/view?usp=sharing" target="_blank">DNG RAW Images</a>
-  <a class="button is-primary" href="https://drive.google.com/file/d/1lAab5F3jjCByY4OEvGSAfykyAqp2wfTi/view?usp=sharing" target="_blank">Metadata (JSON)</a>
+  <a class="button is-primary" href="https://drive.google.com/drive/folders/1FTbgb43Eq_CTYTb_gTowQ8bPnPh6qftg?usp=sharing" target="_blank">DNG RAW Images</a>
+  <a class="button is-primary" href="https://drive.google.com/file/d/1o_O3ua5zhOv6vrsF6KwI9O19E5axUXED/view?usp=sharing" target="_blank">Metadata (JSON)</a>
 </div>
 
 ### Online Evaluation  
