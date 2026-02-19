@@ -175,8 +175,11 @@ Submit your model outputs to our leaderboard server and compare against publishe
 
 ---
 
-## Citation
+## SIDL Dataset License
+This dataset is released for research and educational purposes only.
+Commercial use, redistribution, or derivative dataset release requires prior written permission from the authors.
 
+Please cite the following paper when using the dataset:
 ```bibtex
 @inproceedings{choi2025sidl,
   title     = {SIDL: A Real-World Dataset for Restoring Smartphone Images with Dirty Lenses},
@@ -185,3 +188,5 @@ Submit your model outputs to our leaderboard server and compare against publishe
   volume    = {39}, number = {3}, pages = {2545--2554}, year = {2025}
 }
 ```
+Copyright © 2025 Heewon Kim et al.
+All rights reserved.
